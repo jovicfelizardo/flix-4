@@ -3,13 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0203FD0B2527BE6B00B19A16 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0203FD0A2527BE6B00B19A16 /* MovieDetailsViewController.swift */; };
+		0203FD0D2527C41C00B19A16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0203FD0C2527C41C00B19A16 /* Main.storyboard */; };
+		0203FD0F2527C4F700B19A16 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0203FD0E2527C4F700B19A16 /* MovieGridViewController.swift */; };
+		0203FD112527C79B00B19A16 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0203FD102527C79B00B19A16 /* MovieGridCell.swift */; };
 		021872202519892500F6E28B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0218721F2519892500F6E28B /* AppDelegate.swift */; };
 		021872222519892500F6E28B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021872212519892500F6E28B /* SceneDelegate.swift */; };
-		021872272519892500F6E28B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 021872252519892500F6E28B /* Main.storyboard */; };
 		021872292519892800F6E28B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 021872282519892800F6E28B /* Assets.xcassets */; };
 		0218722C2519892800F6E28B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0218722A2519892800F6E28B /* LaunchScreen.storyboard */; };
 		0218723425198C0B00F6E28B /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0218723325198C0B00F6E28B /* MoviesViewController.swift */; };
@@ -18,10 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0203FD0A2527BE6B00B19A16 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		0203FD0C2527C41C00B19A16 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
+		0203FD0E2527C4F700B19A16 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		0203FD102527C79B00B19A16 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		0218721C2519892500F6E28B /* flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0218721F2519892500F6E28B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		021872212519892500F6E28B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		021872262519892500F6E28B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		021872282519892800F6E28B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0218722B2519892800F6E28B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0218722D2519892800F6E28B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,12 +73,15 @@
 			children = (
 				0218721F2519892500F6E28B /* AppDelegate.swift */,
 				021872212519892500F6E28B /* SceneDelegate.swift */,
-				021872252519892500F6E28B /* Main.storyboard */,
 				021872282519892800F6E28B /* Assets.xcassets */,
 				0218722A2519892800F6E28B /* LaunchScreen.storyboard */,
 				0218722D2519892800F6E28B /* Info.plist */,
+				0203FD0C2527C41C00B19A16 /* Main.storyboard */,
 				0218723325198C0B00F6E28B /* MoviesViewController.swift */,
 				02187235251991BB00F6E28B /* MovieCell.swift */,
+				0203FD0A2527BE6B00B19A16 /* MovieDetailsViewController.swift */,
+				0203FD0E2527C4F700B19A16 /* MovieGridViewController.swift */,
+				0203FD102527C79B00B19A16 /* MovieGridCell.swift */,
 			);
 			path = flix;
 			sourceTree = "<group>";
@@ -91,7 +100,6 @@
 				CA41FE46EF00DA6B9B050B37 /* Pods-flix.debug.xcconfig */,
 				80877C7990929639641289B7 /* Pods-flix.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -155,9 +163,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0203FD0D2527C41C00B19A16 /* Main.storyboard in Resources */,
 				0218722C2519892800F6E28B /* LaunchScreen.storyboard in Resources */,
 				021872292519892800F6E28B /* Assets.xcassets in Resources */,
-				021872272519892500F6E28B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,24 +218,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0203FD0B2527BE6B00B19A16 /* MovieDetailsViewController.swift in Sources */,
 				021872202519892500F6E28B /* AppDelegate.swift in Sources */,
 				021872222519892500F6E28B /* SceneDelegate.swift in Sources */,
 				02187236251991BB00F6E28B /* MovieCell.swift in Sources */,
 				0218723425198C0B00F6E28B /* MoviesViewController.swift in Sources */,
+				0203FD0F2527C4F700B19A16 /* MovieGridViewController.swift in Sources */,
+				0203FD112527C79B00B19A16 /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		021872252519892500F6E28B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				021872262519892500F6E28B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0218722A2519892800F6E28B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
